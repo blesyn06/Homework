@@ -17,8 +17,9 @@ h1 {
 }
 @media (max-width: 600px) {
     h1{
-      font-size: 50px;
-      font-weight: bold;
+      font-size: 48px;
+      
+      line-height: 1;
 
       
     }
@@ -27,16 +28,11 @@ h1 {
 
 
 h2 {
-    font-size: 48px;
+    font-size: 30px;
+    text-align: center;
 }
-@media (max-width: 600px) {
-    h2{
-      font-size: 30px;
-    
-      
-    }
-    
-}
+
+
 
 
 h3 {
@@ -53,6 +49,11 @@ p {
     line-height: 1.5;
     text-align: center;
 }
+.project-link{
+    display: block;
+    text-align: center;
+}
+
 
 .navigation-links {
     display: flex;
@@ -110,8 +111,19 @@ p {
     border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
-    text-transform: capitalize;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
+    display: block;
+    text-align: center;
 }
+.primary-link:hover {
+    color: white;
+  }
+.project-link{
+    display: block;
+
+}
+
+
+
