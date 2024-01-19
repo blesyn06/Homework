@@ -40,8 +40,11 @@ h2 {
 
 
 h3 {
-    font-size: 20px;
+    font-size: 24px;
     opacity: 0.7;
+}
+@media (max-width:600px){
+    h3{font-size: 20px;}
 }
 
 p {
