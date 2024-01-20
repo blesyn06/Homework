@@ -49,11 +49,6 @@ p {
     line-height: 1.5;
     text-align: center;
 }
-.project-link{
-    display: block;
-    text-align: center;
-}
-
 
 .navigation-links {
     display: flex;
@@ -122,6 +117,7 @@ p {
   }
 .project-link{
     display: block;
+    margin: 0 auto;
 
 }
 
